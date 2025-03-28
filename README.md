@@ -35,11 +35,14 @@ User Roles: Admin and User
 Newsly supports two types of users:
 
 Admin: Can manage news articles (add, edit, delete).
+
 User: Can view, search, and have a profile (edit,delete).
+
 How User Roles Work
 During registration, users are assigned the User role by default.
 The backend protects admin-only routes using role-based middleware.
 The frontend dynamically adjusts features based on the user's role:
+
 Admin Features:
 Access to the "Add News" section.
 Ability to edit or delete news articles.
